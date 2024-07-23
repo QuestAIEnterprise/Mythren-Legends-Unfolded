@@ -55,25 +55,36 @@ footer {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
+
+    .character img {
+        border-radius: 50%;
+        margin-right: 1rem;
+        width: 150px;
+        height: 150px;
+    }
 
     .character h3 {
         color: #f5a623; /* Gold text color for character names */
         margin-bottom: 0.5rem;
+        background-image: url('../data/pictures/Background.png');
+        background-size: cover;
+        padding: 0.5rem;
+        border-radius: 8px;
     }
 
     .character .info {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         width: 100%;
     }
 
         .character .info .details,
         .character .info .inventory {
-            width: 48%;
+            width: 100%;
         }
 
         .character .info .inventory {
@@ -97,13 +108,22 @@ footer {
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 1rem;
+    position: relative;
 }
 
     .level-bar .progress {
         height: 20px;
         background-color: #e74c3c; /* Red for progress */
         width: 0; /* This will be updated dynamically */
+        position: relative;
     }
+
+        .level-bar .progress span {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff;
+        }
 
 h2 {
     color: #e74c3c; /* Red for section headers */
