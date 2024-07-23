@@ -1,3 +1,4 @@
+/* Body and General Typography */
 body {
     font-family: 'Merriweather', serif;
     color: #eaeaea;
@@ -8,8 +9,9 @@ h1, h2, h3, p {
     padding: 0;
 }
 
+/* Section Headers */
 .intro h2, .world h2, .features h2, .call-to-action h2 {
-    color: #d4af37;
-    border-bottom: 2px solid #b22222;
+    color: #d4af37; /* Gold text color */
+    border-bottom: 2px solid #b22222; /* Firebrick red underline */
     padding-bottom: 0.5rem;
 }
