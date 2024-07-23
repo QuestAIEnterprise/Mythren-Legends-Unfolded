@@ -3,102 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NPC Side - Mythren: Legends Unfolded</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Ωlaut Dawnbringer - Mythren: Legends Unfolded</title>
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/bars.css">
 </head>
 <body>
-    <header>
-        <h1>NPC Side</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="karakter.html">Karakter Side</a></li>
-                <li><a href="npc.html">NPC Side</a></li>
-                <li><a href="verden.html">Verden Side</a></li>
-                <li><a href="realm.html">Realm Side</a></li>
-                <li><a href="regions.html">Regions Side</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>NPC'er</h2>
-            <div class="npc">
-                <h3>Lirael</h3>
-                <p><strong>Race:</strong> Wood Elf</p>
-                <p><strong>Role:</strong> Dronning</p>
-                <p><strong>Description:</strong> Leder af skovelverne, kendt for hendes visdom og styrke.</p>
+    <div class="character-container">
+        <div class="character">
+            <img src="data/pictures/oluat-dawnbringer.jpg" alt="Ωlaut Dawnbringer" class="character-img">
+            <div class="info">
+                <h3>Ωlaut Dawnbringer</h3>
+                <div class="level-bar">
+                    <div class="progress" style="width: 33%;"><span>166/500 XP</span></div>
+                    <div class="marker" style="left: 33%;"></div>
+                    <div class="tick" style="left: 10%;"></div>
+                    <div class="tick" style="left: 20%;"></div>
+                    <div class="tick" style="left: 30%;"></div>
+                    <div class="tick" style="left: 40%;"></div>
+                    <div class="tick" style="left: 50%;"></div>
+                    <div class="tick" style="left: 60%;"></div>
+                    <div class="tick" style="left: 70%;"></div>
+                    <div class="tick" style="left: 80%;"></div>
+                    <div class="tick" style="left: 90%;"></div>
+                </div>
+                <div class="hitpoints-bar">
+                    <div class="progress" style="width: 100%;"><span>12/12 HP</span></div>
+                    <div class="marker" style="left: 100%;"></div>
+                    <div class="tick" style="left: 10%;"></div>
+                    <div class="tick" style="left: 20%;"></div>
+                    <div class="tick" style="left: 30%;"></div>
+                    <div class="tick" style="left: 40%;"></div>
+                    <div class="tick" style="left: 50%;"></div>
+                    <div class="tick" style="left: 60%;"></div>
+                    <div class="tick" style="left: 70%;"></div>
+                    <div class="tick" style="left: 80%;"></div>
+                    <div class="tick" style="left: 90%;"></div>
+                </div>
+                <div class="details">
+                    <p><strong>Level:</strong> 1</p>
+                    <p><strong>Hit Points:</strong> 12</p>
+                    <p><strong>XP:</strong> 166</p>
+                    <p><strong>Race:</strong> Dragonborn</p>
+                    <p><strong>Class:</strong> Paladin</p>
+                    <p><strong>Alignment:</strong> Lawful Good</p>
+                    <p><strong>Ability Scores:</strong></p>
+                    <ul>
+                        <li>Strength: 18 (+4)</li>
+                        <li>Dexterity: 10 (0)</li>
+                        <li>Constitution: 16 (+3)</li>
+                        <li>Intelligence: 10 (0)</li>
+                        <li>Wisdom: 13 (+1)</li>
+                        <li>Charisma: 14 (+2)</li>
+                    </ul>
+                    <p><strong>Spells:</strong></p>
+                    <ul>
+                        <li>Divine Sense</li>
+                        <li>Lay on Hands</li>
+                    </ul>
+                </div>
+                <div class="inventory">
+                    <p><strong>Inventory:</strong></p>
+                    <ul>
+                        <li>Healing Kit</li>
+                        <li>Chain Mail</li>
+                        <li>Shield</li>
+                        <li>Longsword</li>
+                        <li>Holy Symbol</li>
+                        <li>Explorer's Pack</li>
+                    </ul>
+                </div>
             </div>
-            <div class="npc">
-                <h3>Thalor</h3>
-                <p><strong>Race:</strong> Wood Elf</p>
-                <p><strong>Role:</strong> Præst</p>
-                <p><strong>Description:</strong> Religiøs leder blandt skovelverne, kendt for hans spirituelle indsigt.</p>
+            <div class="equipment-tab">
+                <img src="data/pictures/oluat-dawnbringer-equipment-tab.png" alt="Ωlaut Dawnbringer Equipment Tab">
+                <p>Equipment Slots</p>
             </div>
-            <div class="npc">
-                <h3>Eldrin</h3>
-                <p><strong>Race:</strong> Wood Elf</p>
-                <p><strong>Role:</strong> Kriger</p>
-                <p><strong>Description:</strong> Beskytter af skoven og dens indbyggere, kendt for hans kampfærdigheder.</p>
-            </div>
-            <div class="npc">
-                <h3>Arathia</h3>
-                <p><strong>Race:</strong> Wood Elf</p>
-                <p><strong>Role:</strong> Vise Kvinde</p>
-                <p><strong>Description:</strong> En af de ældste og mest respekterede elvere, kendt for hendes dybe viden om magi.</p>
-            </div>
-            <div class="npc">
-                <h3>Kong Balin</h3>
-                <p><strong>Race:</strong> Dværg</p>
-                <p><strong>Role:</strong> Konge</p>
-                <p><strong>Description:</strong> Leder af dværgenes rige, kendt for hans retfærdighed og visdom.</p>
-            </div>
-            <div class="npc">
-                <h3>Thorin</h3>
-                <p><strong>Race:</strong> Dværg</p>
-                <p><strong>Role:</strong> Rådgiver</p>
-                <p><strong>Description:</strong> En af de nærmeste rådgivere til Kong Balin, kendt for hans strategiske tænkning.</p>
-            </div>
-            <div class="npc">
-                <h3>Dwalin</h3>
-                <p><strong>Race:</strong> Dværg</p>
-                <p><strong>Role:</strong> Kriger</p>
-                <p><strong>Description:</strong> En af de stærkeste krigere i dværgenes rige, kendt for hans mod og styrke.</p>
-            </div>
-            <div class="npc">
-                <h3>Kong Alaric</h3>
-                <p><strong>Race:</strong> Menneske</p>
-                <p><strong>Role:</strong> Konge</p>
-                <p><strong>Description:</strong> Leder af menneskernes rige, kendt for hans retfærdighed og diplomatiske evner.</p>
-            </div>
-            <div class="npc">
-                <h3>Isolde</h3>
-                <p><strong>Race:</strong> Menneske</p>
-                <p><strong>Role:</strong> Rådgiver</p>
-                <p><strong>Description:</strong> En af de nærmeste rådgivere til Kong Alaric, kendt for hendes magiske evner.</p>
-            </div>
-            <div class="npc">
-                <h3>Caelus</h3>
-                <p><strong>Race:</strong> Menneske</p>
-                <p><strong>Role:</strong> General</p>
-                <p><strong>Description:</strong> Leder af menneskernes militær, kendt for hans taktiske geni og mod.</p>
-            </div>
-            <div class="npc">
-                <h3>Elysia</h3>
-                <p><strong>Race:</strong> Menneske</p>
-                <p><strong>Role:</strong> Magiker</p>
-                <p><strong>Description:</strong> En af de stærkeste magikere i menneskernes rige, kendt for hendes dybe viden om magi.</p>
-            </div>
-            <div class="npc">
-                <h3>Lucian</h3>
-                <p><strong>Race:</strong> Menneske</p>
-                <p><strong>Role:</strong> Diplomat</p>
-                <p><strong>Description:</strong> En af de mest talentfulde diplomater i menneskernes rige, kendt for hans evne til at skabe alliancer.</p>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Mythren: Legends Unfolded. Alle rettigheder forbeholdes.</p>
-    </footer>
+        </div>
+    </div>
 </body>
 </html>
