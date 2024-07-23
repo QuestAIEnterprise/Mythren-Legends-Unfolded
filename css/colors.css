@@ -1,0 +1,31 @@
+header {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #d4af37;
+}
+
+nav ul li a {
+    color: #d4af37;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+    nav ul li a:hover {
+        color: #b22222;
+        background-color: rgba(212, 175, 55, 0.2);
+        border-radius: 5px;
+    }
+
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.intro, .world, .features, .call-to-action {
+    background-color: rgba(20, 20, 20, 0.8);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #d4af37;
+}

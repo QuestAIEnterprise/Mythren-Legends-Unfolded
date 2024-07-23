@@ -1,0 +1,15 @@
+body {
+    font-family: 'Merriweather', serif;
+    color: #eaeaea;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+.intro h2, .world h2, .features h2, .call-to-action h2 {
+    color: #d4af37;
+    border-bottom: 2px solid #b22222;
+    padding-bottom: 0.5rem;
+}

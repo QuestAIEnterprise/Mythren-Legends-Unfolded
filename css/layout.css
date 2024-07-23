@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d;
+    background-image: url('../data/A_dark_and_intricate_fantasy_pattern_with_a_gothic.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+    nav ul li {
+        margin-right: 1rem;
+        position: relative;
+    }
+
+main {
+    padding: 6rem 2rem 2rem 2rem;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    height: 50vh;
+    background: url('../data/A_dark_and_epic_fantasy_landscape_featuring_grand_.png') no-repeat center center/cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.intro, .world, .features, .call-to-action {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
