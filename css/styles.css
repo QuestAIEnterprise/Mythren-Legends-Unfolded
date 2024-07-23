@@ -19,6 +19,8 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
+    border-image: url('../data/Detailed_and_ornate_fantasy_borders_inspired_by_me.png') 30 stretch; /* Add border image */
+    border-width: 10px; /* Adjust as needed */
 }
 
 nav ul {
@@ -30,22 +32,28 @@ nav ul {
 
     nav ul li {
         margin-right: 1rem;
+        position: relative;
     }
 
         nav ul li a {
             color: #d4af37; /* Gold text color */
             text-decoration: none;
             font-weight: bold;
-            transition: color 0.3s;
+            padding: 0.5rem 1rem;
+            transition: color 0.3s, background-color 0.3s;
         }
 
             nav ul li a:hover {
                 color: #b22222; /* Dark red hover effect */
+                background-color: rgba(212, 175, 55, 0.2); /* Nearly transparent gold box */
+                border-radius: 5px;
             }
 
 main {
     padding: 6rem 2rem 2rem 2rem; /* Add padding to compensate for fixed header */
     background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    border-image: url('../data/Detailed_and_ornate_fantasy_borders_inspired_by_me.png') 30 stretch; /* Add border image */
+    border-width: 10px; /* Adjust as needed */
 }
 
 footer {
@@ -56,6 +64,8 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    border-image: url('../data/Detailed_and_ornate_fantasy_borders_inspired_by_me.png') 30 stretch; /* Add border image */
+    border-width: 10px; /* Adjust as needed */
 }
 
 .character, .npc {
@@ -68,6 +78,8 @@ footer {
     flex-direction: row;
     align-items: center;
     transition: transform 0.3s, box-shadow 0.3s;
+    border-image: url('../data/Detailed_and_ornate_fantasy_borders_inspired_by_me.png') 30 stretch; /* Add border image */
+    border-width: 10px; /* Adjust as needed */
 }
 
     .character:hover, .npc:hover {
